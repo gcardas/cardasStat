@@ -1,0 +1,13 @@
+Package: cardasStat
+Title: Helpful tool for statistics
+Version: 1.0.0.0
+Authors@R: person("Gabriel", "Cardas", email = "gabriel.cardas@student.tuke.sk", role = c("aut", "cre"))
+Description: A package for my statistics course at UMA.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
