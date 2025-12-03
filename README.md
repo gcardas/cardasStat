@@ -4,13 +4,13 @@ This repository is created for purposes of statistical methods classes. It conta
 
 Installation process to the Rstudio:
 
-install.packages("devtools")
+    install.packages("devtools")
 
-library(devtools)
+    library(devtools)
 
-devtools::install_github("gcardas/cardasStat")
+    devtools::install_github("gcardas/cardasStat")
 
-library(cardasStat)
+    library(cardasStat)
 
 
 List of topics and particular functions:
