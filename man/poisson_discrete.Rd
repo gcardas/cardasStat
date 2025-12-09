@@ -40,6 +40,7 @@ poisson_random(10, 3)
 }
 \seealso{
 Other discrete-distributions: 
+\code{\link{binomial_discrete}()},
 \code{\link{discrete_uniform_pmf}()}
 }
 \concept{discrete-distributions}
