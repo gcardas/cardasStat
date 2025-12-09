@@ -30,8 +30,9 @@ then open TERMINAL and type:
 
 WARNING! if in the outcome of .libPaths() were more than one path, run the command above for each of them
 
-    quit the R studio, do not save enviroment
-    open it again
+
+QUIT the R studio, do not save enviroment
+OPEN it again
 
 
 then run the command (in console):
@@ -41,3 +42,17 @@ then run the command (in console):
 it should work now!
 
 
+----
+t test when I have data
+
+    t.test(x, mu=2, alternative = "two.side", coef.leve = 0.95, var.equal = FALSE)
+
+
+
+Approximations
+
+P(X = a)     = P(a − 0.5 ≤ Y ≤a + 0.5),
+P(a < X < b) = P(a + 0.5 ≤ Y ≤b − 0.5),
+P(a ≤ X ≤ b) = P(a − 0.5 ≤ Y ≤b + 0.5),
+P(a < X ≤ b) = P(a + 0.5 ≤ Y ≤b + 0.5),
+P(a ≤ X < b) = P(a − 0.5 ≤ Y ≤b − 0.5).

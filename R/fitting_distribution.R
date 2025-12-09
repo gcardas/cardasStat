@@ -69,6 +69,7 @@ calc_normal_bin_prob <- function(breaks, mu_hat, sig_hat) {
 
 #---------------------------
 
+
 #' Calculate Expected Frequencies
 #' @description Calculates the expected frequency (E) for each class given the total sample size (n)
 #'   and the theoretical probabilities (p).
@@ -99,3 +100,5 @@ calc_chi_sq_stat <- function(obs_freq, exp_freq) {
   
   return(chi2_stat)
 }
+
+
