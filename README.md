@@ -12,7 +12,32 @@ Installation process to the Rstudio:
 
     library(cardasStat)
 
+UPDATING PROCESS
 
-List of topics and particular functions:
+(in console) :
+
+    remove.packages("cardasStat")
+
+then check the path of the libraries (in console):
+
+    .libPaths() 
+    
+copy the path without ""
+
+then open TERMINAL and type:
+
+    rm -rf copied_path/cardasStat
+
+WARNING! if in the outcome of .libPaths() were more than one path, run the command above for each of them
+
+    quit the R studio, do not save enviroment
+    open it again
+
+
+then run the command (in console):
+
+    devtools::install_github("gcardas/cardasStat", force = TRUE)
+
+it should work now!
 
 
