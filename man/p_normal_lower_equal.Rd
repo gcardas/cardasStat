@@ -7,7 +7,7 @@ Probability of X being greater than q}
 \alias{p_normal_greater}
 \alias{p_normal_lower_equal}
 \alias{p_normal_lower}
-\title{Probability of X being within the interval [a, b]}
+\title{Normal Distribution N(mean, sd)}
 \usage{
 p_normal_interval(a, b, mean, sd)
 

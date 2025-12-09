@@ -6,7 +6,6 @@
 
 
 # Interval [a,b]
-#' Probability of X being within the interval \[a, b\]
 #' @rdname p_normal_lower_equal
 #' @param a Lower bound of the interval.
 #' @param b Upper bound of the interval.
