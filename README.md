@@ -51,12 +51,12 @@ t test when I have data
 
 Approximations
 
-P(X = a)     = P(a − 0.5 ≤ Y ≤a + 0.5),
+    P(X = a)     = P(a − 0.5 ≤ Y ≤a + 0.5),
 
-P(a < X < b) = P(a + 0.5 ≤ Y ≤b − 0.5),
+    P(a < X < b) = P(a + 0.5 ≤ Y ≤b − 0.5),
 
-P(a ≤ X ≤ b) = P(a − 0.5 ≤ Y ≤b + 0.5),
+    P(a ≤ X ≤ b) = P(a − 0.5 ≤ Y ≤b + 0.5),
 
-P(a < X ≤ b) = P(a + 0.5 ≤ Y ≤b + 0.5),
+    P(a < X ≤ b) = P(a + 0.5 ≤ Y ≤b + 0.5),
 
-P(a ≤ X < b) = P(a − 0.5 ≤ Y ≤b − 0.5).
+    P(a ≤ X < b) = P(a − 0.5 ≤ Y ≤b − 0.5).
